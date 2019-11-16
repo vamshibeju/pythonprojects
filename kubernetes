@@ -1,0 +1,35 @@
+master
+
+etcd-stores all the configurations of the cluster (key value store)
+apis server -front end interacts with kube cluster
+scheduler- distributes the workload 
+controller- makes decision to bring new container 
+
+
+node - 
+we neeed to have more than one node
+multiple nodes helps sharing the load 
+
+kubelet - agent (interacts with master)
+kubeproxy - to connect the nodes with other nodes
+container runtime- container or rocket
+
+
+kubectl -kubecommand line to manage the cluster
+
+it runs on the agents
+
+kubectl run hello-minikube"
+kubectl cluster-info
+kubectl get nodes
+kubectl get pods 
+
+
+
+
+tasks:
+1)application
+2)kubernetes cluster
+
+
+pod is smallest unit in the node and kubernetes cluster
