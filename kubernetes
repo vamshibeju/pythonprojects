@@ -23,6 +23,7 @@ kubectl run hello-minikube"
 kubectl cluster-info
 kubectl get nodes
 kubectl get pods 
+kubectl create -f pod.yml
 
 
 
